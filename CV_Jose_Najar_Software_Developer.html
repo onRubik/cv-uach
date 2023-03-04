@@ -1,0 +1,436 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<style>
+
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	line-height:110%;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;}
+h1
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:.8pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial Narrow",sans-serif;
+	color:#0F141F;
+	text-transform:uppercase;
+	letter-spacing:.75pt;}
+h2
+	{margin:0in;
+	font-size:9.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;}
+h3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.1pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:10.0pt;
+	font-family:"Arial Narrow",sans-serif;
+	color:#0F141F;
+	text-transform:uppercase;
+	letter-spacing:.75pt;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:9.75pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	text-align:center;
+	line-height:120%;
+	font-size:8.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;
+	text-transform:uppercase;}
+p.MsoDate, li.MsoDate, div.MsoDate
+	{margin-top:1.6pt;
+	margin-right:0in;
+	margin-bottom:1.6pt;
+	margin-left:0in;
+	font-size:8.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#7A8599;}
+a:link, span.MsoHyperlink
+	{text-decoration:underline;}
+p.Avatarcontainer, li.Avatarcontainer, div.Avatarcontainer
+	{mso-style-name:"Avatar container";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:17.85pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:1.0pt;
+	font-family:"Times New Roman",serif;}
+p.Cardssectionspacing, li.Cardssectionspacing, div.Cardssectionspacing
+	{mso-style-name:"Cards section spacing";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.1pt;
+	margin-left:0in;
+	line-height:0%;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;}
+p.Name, li.Name, div.Name
+	{mso-style-name:Name;
+	margin:0in;
+	text-align:center;
+	font-size:20.0pt;
+	font-family:"Arial Narrow",sans-serif;
+	color:#0F141F;
+	text-transform:uppercase;
+	letter-spacing:1.0pt;
+	font-weight:bold;}
+p.Nomargins, li.Nomargins, div.Nomargins
+	{mso-style-name:"No margins";
+	margin:0in;
+	line-height:110%;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;}
+p.NormalCenter, li.NormalCenter, div.NormalCenter
+	{mso-style-name:"Normal Center";
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	text-align:center;
+	line-height:110%;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;}
+p.Mainsectionsspacing, li.Mainsectionsspacing, div.Mainsectionsspacing
+	{mso-style-name:"Main sections spacing";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.65pt;
+	margin-left:0in;
+	line-height:0%;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;}
+p.Sidebarsectionsspacing, li.Sidebarsectionsspacing, div.Sidebarsectionsspacing
+	{mso-style-name:"Sidebar sections spacing";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:16.25pt;
+	margin-left:0in;
+	line-height:0%;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;}
+p.Sidebarsectionsspacing0, li.Sidebarsectionsspacing0, div.Sidebarsectionsspacing0
+	{mso-style-name:"Sidebar sections spacing";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.05pt;
+	margin-left:0in;
+	line-height:0%;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;}
+p.SkillBar, li.SkillBar, div.SkillBar
+	{mso-style-name:"Skill Bar";
+	margin:0in;
+	line-height:20%;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;}
+p.Skillsectionspacing, li.Skillsectionspacing, div.Skillsectionspacing
+	{mso-style-name:"Skill section spacing";
+	margin-top:2.4pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:45%;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;}
+p.JobTitle, li.JobTitle, div.JobTitle
+	{mso-style-name:"Job Title";
+	margin:0in;
+	text-align:center;
+	line-height:110%;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#0F141F;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:30.85pt 39.65pt 31.15pt 39.65pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+
+</style>
+
+</head>
+
+<body bgcolor=white lang=EN-US link="#000000" vlink="#954F72" style='word-wrap:
+break-word'>
+
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=680
+ style='width:510.2pt;border-collapse:collapse'>
+ <tr>
+  <td colspan=2 valign=top style='padding:0in 0in 24.35pt 0in'>
+  <p class=Avatarcontainer><img width=66 height=66 id="Picture 1"
+  src="CV_Jose_Najar_Software_Developer_files/image001.gif"></p>
+  <p class=Name>Jos&eacute; Carlos N&aacute;jar Salda&ntilde;a</p>
+  <div align=center>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+   style='border-collapse:collapse'>
+   <tr>
+    <td valign=top style='padding:0in 3.0pt 0in 3.0pt'>
+    <p class=MsoCaption>Software Developer</p>
+    </td>
+    <td valign=top style='padding:0in 3.0pt 0in 14.0pt'>
+    <p class=MsoCaption><span style='position:absolute;z-index:251661824;
+    margin-left:-14px;margin-top:11px;width:14px;height:16px'><img width=14
+    height=16 src="CV_Jose_Najar_Software_Developer_files/image002.gif"></span>Cd.
+    Guzman, Jalisco, Mexico</p>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=193 valign=top style='width:144.55pt;padding:0in 0in 0in 0in'>
+  <p class=Sidebarsectionsspacing0>&nbsp;</p>
+  <h3><span style='position:absolute;z-index:251653632;margin-left:-15px;
+  margin-top:4px;width:8px;height:8px'><img width=8 height=8
+  src="CV_Jose_Najar_Software_Developer_files/image003.gif"></span>Details<span
+  style='position:absolute;z-index:251654656;margin-left:14px;margin-top:4px;
+  width:8px;height:8px'><img width=8 height=8
+  src="CV_Jose_Najar_Software_Developer_files/image003.gif"></span></h3>
+  <p class=Nomargins align=center style='text-align:center'>Cd. Guzman,
+  Jalisco, Mexico</p>
+  <p class=Sidebarsectionsspacing>&nbsp;</p>
+  <h3><span style='position:absolute;z-index:251655680;margin-left:-14px;
+  margin-top:4px;width:8px;height:8px'><img width=8 height=8
+  src="CV_Jose_Najar_Software_Developer_files/image003.gif"></span>Skills<span
+  style='position:absolute;z-index:251658752;margin-left:13px;margin-top:3px;
+  width:8px;height:8px'><img width=8 height=8
+  src="CV_Jose_Najar_Software_Developer_files/image003.gif"></span></h3>
+  <p class=JobTitle>Oracle SQL</p>
+  <p class=Skillsectionspacing>&nbsp;</p>
+  <p class=JobTitle>Python</p>
+  <p class=Skillsectionspacing>&nbsp;</p>
+  <p class=JobTitle>Javascript</p>
+  <p class=Skillsectionspacing>&nbsp;</p>
+  <p class=JobTitle>Data Analysis</p>
+  <p class=Skillsectionspacing>&nbsp;</p>
+  <p class=JobTitle>Excel VBA</p>
+  <p class=Skillsectionspacing>&nbsp;</p>
+  <p class=Sidebarsectionsspacing>&nbsp;</p>
+  <h3><span style='position:absolute;z-index:251659776;margin-left:-15px;
+  margin-top:4px;width:8px;height:8px'><img width=8 height=8
+  src="CV_Jose_Najar_Software_Developer_files/image003.gif"></span>Languages<span
+  style='position:absolute;z-index:251660800;margin-left:13px;margin-top:4px;
+  width:8px;height:8px'><img width=8 height=8
+  src="CV_Jose_Najar_Software_Developer_files/image003.gif"></span></h3>
+  <div align=center>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=135
+   style='width:101.15pt;border-collapse:collapse'>
+   <tr>
+    <td width=135 colspan=2 valign=top style='width:101.15pt;padding:0in 0in 0in 0in'>
+    <p class=JobTitle>English</p>
+    </td>
+   </tr>
+   <tr>
+    <td width=107 valign=top style='width:79.9pt;background:#0F141F;padding:
+    0in 0in 0in 0in'>
+    <p class=SkillBar>''</p>
+    </td>
+    <td width=28 valign=top style='width:21.25pt;background:#CFD6E6;padding:
+    0in 0in 0in 0in'>
+    <p class=SkillBar>''</p>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p class=Skillsectionspacing>&nbsp;</p>
+  <div align=center>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=135
+   style='width:101.15pt;border-collapse:collapse'>
+   <tr>
+    <td width=135 colspan=2 valign=top style='width:101.15pt;padding:0in 0in 0in 0in'>
+    <p class=JobTitle>Spanish</p>
+    </td>
+   </tr>
+   <tr>
+    <td width=134 valign=top style='width:100.15pt;background:#0F141F;
+    padding:0in 0in 0in 0in'>
+    <p class=SkillBar>''</p>
+    </td>
+    <td width=1 valign=top style='width:1.0pt;background:#0F141F;padding:0in 0in 0in 0in'>
+    <p class=SkillBar>''</p>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p class=Skillsectionspacing>&nbsp;</p>
+  <p class=Sidebarsectionsspacing>&nbsp;</p>
+  </td>
+  <td width=488 valign=top style='width:365.65pt;padding:0in 0in 0in 0in'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+   style='border-collapse:collapse'>
+   <tr>
+    <td width=26 colspan=2 valign=top style='width:19.8pt;padding:0in 0in 0in 0in'>
+    <p class=MsoNormal><img border=0 width=15 height=15 id="Picture 11"
+    src="CV_Jose_Najar_Software_Developer_files/image004.gif"></p>
+    </td>
+    <td width=461 colspan=2 style='width:345.8pt;padding:0in 0in 0in 0in'>
+    <h1>Profile</h1>
+    </td>
+   </tr>
+   <tr>
+    <td width=8 valign=top style='width:6.1pt;padding:0in 0in 0in 0in'>
+    <p class=MsoNormal>&nbsp;</p>
+    </td>
+    <td width=488 colspan=2 valign=top style='width:365.65pt;border:none;
+    border-left:solid #0F141F 1.0pt;padding:0in 0in 0in 13.8pt'>
+    <p class=MsoNormal>Aiming to acquire solid knowledge on data science &amp;
+    software development. Avid Python developer eager to build meaningful data.</p>
+    </td>
+    <td style='border:none;padding:0in 0in 0in 0in' width=18><p class='MsoNormal'>&nbsp;</td>
+   </tr>
+   <tr height=0>
+    <td width=8 style='border:none'></td>
+    <td width=18 style='border:none'></td>
+    <td width=445 style='border:none'></td>
+    <td width=17 style='border:none'></td>
+   </tr>
+  </table>
+  <p class=Mainsectionsspacing>&nbsp;</p>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+   style='border-collapse:collapse'>
+   <tr>
+    <td width=26 colspan=2 valign=top style='width:19.8pt;padding:0in 0in 0in 0in'>
+    <p class=MsoNormal><img border=0 width=15 height=15 id="Picture 12"
+    src="CV_Jose_Najar_Software_Developer_files/image005.gif"></p>
+    </td>
+    <td width=461 colspan=2 style='width:345.8pt;padding:0in 0in 0in 0in'>
+    <h1>Employment History</h1>
+    </td>
+   </tr>
+   <tr>
+    <td width=8 valign=top style='width:6.1pt;padding:0in 0in 0in 0in'>
+    <p class=MsoNormal>&nbsp;</p>
+    </td>
+    <td width=488 colspan=2 valign=top style='width:365.65pt;border:none;
+    border-left:solid #0F141F 1.0pt;padding:0in 0in 0in 13.8pt'>
+    <h2>IT Analyst at Tata Consultancy Services, Guadalajara, Jalisco</h2>
+    <p class=MsoDate>August 2022 - Present</p>
+    <p class=MsoDate><span style='font-size:9.5pt;color:#0F141F'>Configuration
+    management tasks. Bulk updates for virtual machines using powershell.</span></p>
+    <p class=Cardssectionspacing>&nbsp;</p>
+    <h2>Software Developer at AutoZone (Datazone), Chihuahua, Chih.</h2>
+    <p class=MsoDate>July 2021 - August 2022</p>
+    <p class=MsoNormal>Software development &amp; support. Coding, testing,
+    debugging, and documenting Business Intelligence tools using Oracle SQL,
+    Webfocus, javascript and Python. Developer role within the agile management
+    SCRUM framework.</p>
+    <p class=Cardssectionspacing>&nbsp;</p>
+    <h2>Supervisor, Centralized Routing &amp; Dispatching at AutoZone
+    (Datazone), Chihuahua, Chih.</h2>
+    <p class=MsoDate>November 2018 - July 2021</p>
+    <p class=MsoNormal>Supervision on transportation routing &amp; distribution
+    planning. operations research to minimize transportation costs.</p>
+    <p class=Cardssectionspacing>&nbsp;</p>
+    <h2>Centralized Router &amp; Dispatcher at AutoZone (Datazone), Chihuahua,
+    Chih.</h2>
+    <p class=MsoDate>August 2017 - November 2018</p>
+    <p class=MsoNormal>Transportation routing &amp; distribution planning.
+    operations research to minimize transportation costs. follow up on the
+    Distribution Centers requirements to assign transport routes.</p>
+    <p class=Cardssectionspacing>&nbsp;</p>
+    <h2>Supply chain management &amp; warehouse manager at Papelera de
+    Chihuahua S.A. de C.V., Chihuahua, Chih.</h2>
+    <p class=MsoDate>May 2013 - August 2017</p>
+    <p class=MsoNormal>Supply forecasting, inventory management, warehouse
+    management and team management to assure materials supply efficiency,
+    implement and monitor performance of ISO 9001 and ISO 14001 (materials
+    department).</p>
+    </td>
+    <td style='border:none;padding:0in 0in 0in 0in' width=18><p class='MsoNormal'>&nbsp;</td>
+   </tr>
+   <tr height=0>
+    <td width=8 style='border:none'></td>
+    <td width=18 style='border:none'></td>
+    <td width=445 style='border:none'></td>
+    <td width=17 style='border:none'></td>
+   </tr>
+  </table>
+  <p class=Mainsectionsspacing>&nbsp;</p>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+   style='border-collapse:collapse'>
+   <tr>
+    <td width=26 colspan=2 valign=top style='width:19.8pt;padding:0in 0in 0in 0in'>
+    <p class=MsoNormal><img border=0 width=15 height=15 id="Picture 13"
+    src="CV_Jose_Najar_Software_Developer_files/image006.gif"></p>
+    </td>
+    <td width=461 colspan=2 style='width:345.8pt;padding:0in 0in 0in 0in'>
+    <h1>Education</h1>
+    </td>
+   </tr>
+   <tr>
+    <td width=8 valign=top style='width:6.1pt;padding:0in 0in 0in 0in'>
+    <p class=MsoNormal>&nbsp;</p>
+    </td>
+    <td width=488 colspan=2 valign=top style='width:365.65pt;border:none;
+    border-left:solid #0F141F 1.0pt;padding:0in 0in 0in 13.8pt'>
+    <h2>BS in Software Engineering, Universidad Aut&oacute;noma de Chihuahua,
+    Chihuahua, Chih.</h2>
+    <p class=MsoDate>January 2019 - Present</p>
+    <p class=Cardssectionspacing>&nbsp;</p>
+    <h2>BA in Business Management, Universidad Aut&oacute;noma de Chihuahua,
+    Chihuahua, Chih.</h2>
+    <p class=MsoDate>August 2011 - June 2017</p>
+    </td>
+    <td style='border:none;padding:0in 0in 0in 0in' width=18><p class='MsoNormal'>&nbsp;</td>
+   </tr>
+   <tr height=0>
+    <td width=8 style='border:none'></td>
+    <td width=18 style='border:none'></td>
+    <td width=445 style='border:none'></td>
+    <td width=17 style='border:none'></td>
+   </tr>
+  </table>
+  <p class=Mainsectionsspacing></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
